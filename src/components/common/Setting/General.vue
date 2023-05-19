@@ -24,7 +24,7 @@ const avatar = ref(userInfo.value.avatar ?? '')
 
 const name = ref(userInfo.value.name ?? '')
 
-const description = ref(userInfo.value.description ?? '')
+const description = ref('https://github.com/03jia/chatgpt-web')
 
 const language = computed({
   get() {
